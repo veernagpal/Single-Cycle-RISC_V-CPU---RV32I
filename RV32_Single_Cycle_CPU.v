@@ -7,8 +7,7 @@ module SingleCycleCPU (
 // When input start is zero, cpu should reset
 // When input start is high, cpu start running
 
-// TODO: connect wire to realize SingleCycleCPU
-// The following provides simple template,
+
 
 wire [31:0] pc_current; // Current PC output
 wire [31:0] pc_next;    // Next PC input
